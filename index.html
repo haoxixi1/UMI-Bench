@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="UMI-Bench 1.0 is an open and reproducible real-world benchmark for tabletop robotic manipulation with UMI data.">
+    <title>UMI-Bench 1.0</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <nav class="nav">
+        <a class="brand" href="#top" aria-label="UMI-Bench home">UMI-Bench</a>
+        <div class="nav-links" aria-label="Section navigation">
+          <a href="#overview">Overview</a>
+          <a href="#tasks">Tasks</a>
+          <a href="#protocol">Protocol</a>
+          <a href="#results">Results</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#citation">BibTeX</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <picture>
+          <img class="hero-image" src="assets/images/hero.jpg" alt="UMI-Bench robot manipulation setup and task examples">
+        </picture>
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="venue">CoRL 2026 Submission</p>
+          <h1>UMI-Bench 1.0</h1>
+          <p class="hero-subtitle">An open and reproducible real-world benchmark for tabletop robotic manipulation with UMI data.</p>
+          <p class="hero-copy">UMI-Bench aligns data collection, scene reset, policy execution, result logging, and task-factor analysis within one auditable real-robot evaluation protocol.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="assets/paper/umi-bench-paper.pdf">Paper</a>
+            <a class="button" href="#gallery">Rollouts</a>
+            <a class="button ghost" href="#citation">Cite</a>
+          </div>
+        </div>
+        <div class="hero-stats" aria-label="Benchmark summary">
+          <span><strong>10</strong> real-world tasks</span>
+          <span><strong>4</strong> single-arm tasks</span>
+          <span><strong>6</strong> bimanual tasks</span>
+          <span><strong>UMI</strong> data-to-deployment</span>
+        </div>
+      </section>
+
+      <section class="section intro-band" id="overview">
+        <div class="section-inner two-column">
+          <div>
+            <p class="eyebrow">Overview</p>
+            <h2>A benchmark for the full UMI evaluation loop</h2>
+            <p>Real-robot evaluation is essential for understanding whether learned manipulation policies operate reliably outside curated demonstrations. UMI-Bench focuses on the UMI-style setting, where wrist-view observation, action representation, data collection, and physical deployment are tightly coupled.</p>
+            <p>The benchmark specifies how demonstrations are collected, how scenes are reset, how policies are executed, how episodes are logged, and how task-level factors are analyzed under seen and unseen conditions.</p>
+          </div>
+          <figure class="media-frame">
+            <img src="assets/images/overview.jpg" alt="UMI-Bench system overview">
+            <figcaption>Standardized data collection and real-world evaluation are treated as one benchmark specification.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section" id="tasks">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="eyebrow">Task Suite</p>
+            <h2>Single-arm and bimanual tabletop manipulation</h2>
+            <p>UMI-Bench 1.0 covers four single-arm tasks and six bimanual tasks, spanning placement precision, spatial reasoning, contact-rich interaction, dynamic scenes, sorting, long-horizon execution, and deformable manipulation.</p>
+          </div>
+
+          <div class="task-controls" aria-label="Task filters">
+            <button class="filter-button active" type="button" data-filter="all">All</button>
+            <button class="filter-button" type="button" data-filter="single">Single-arm</button>
+            <button class="filter-button" type="button" data-filter="dual">Bimanual</button>
+          </div>
+
+          <div class="task-grid">
+            <article class="task-card" data-kind="single">
+              <img src="assets/images/single-task-1.jpg" alt="Single-arm UMI-Bench task 1">
+              <div><span>Single-arm</span><h3>Tabletop Placement</h3></div>
+            </article>
+            <article class="task-card" data-kind="single">
+              <img src="assets/images/single-task-2.jpg" alt="Single-arm UMI-Bench task 2">
+              <div><span>Single-arm</span><h3>Bag Handling</h3></div>
+            </article>
+            <article class="task-card" data-kind="single">
+              <img src="assets/images/single-task-3.jpg" alt="Single-arm UMI-Bench task 3">
+              <div><span>Single-arm</span><h3>Object Transfer</h3></div>
+            </article>
+            <article class="task-card" data-kind="single">
+              <img src="assets/images/single-task-4.jpg" alt="Single-arm UMI-Bench task 4">
+              <div><span>Single-arm</span><h3>Remote Placement</h3></div>
+            </article>
+            <article class="task-card" data-kind="dual">
+              <img src="assets/images/dual-task-1.jpg" alt="Bimanual UMI-Bench task 1">
+              <div><span>Bimanual</span><h3>Coordinated Pick</h3></div>
+            </article>
+            <article class="task-card" data-kind="dual">
+              <img src="assets/images/dual-task-2.jpg" alt="Bimanual UMI-Bench task 2">
+              <div><span>Bimanual</span><h3>Material Pouring</h3></div>
+            </article>
+            <article class="task-card" data-kind="dual">
+              <img src="assets/images/dual-task-3.jpg" alt="Bimanual UMI-Bench task 3">
+              <div><span>Bimanual</span><h3>Rotational Control</h3></div>
+            </article>
+            <article class="task-card" data-kind="dual">
+              <img src="assets/images/dual-task-4.jpg" alt="Bimanual UMI-Bench task 4">
+              <div><span>Bimanual</span><h3>Category Sorting</h3></div>
+            </article>
+            <article class="task-card" data-kind="dual">
+              <img src="assets/images/dual-task-5.jpg" alt="Bimanual UMI-Bench task 5">
+              <div><span>Bimanual</span><h3>Packing and Transport</h3></div>
+            </article>
+            <article class="task-card" data-kind="dual">
+              <img src="assets/images/dual-task-6.jpg" alt="Bimanual UMI-Bench task 6">
+              <div><span>Bimanual</span><h3>Deformable Folding</h3></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section protocol-band" id="protocol">
+        <div class="section-inner">
+          <div class="section-heading compact">
+            <p class="eyebrow">Benchmark Protocol</p>
+            <h2>Reproducible evaluation, not isolated demos</h2>
+          </div>
+          <div class="protocol-grid">
+            <div class="protocol-step">
+              <span>01</span>
+              <h3>Data Collection</h3>
+              <p>Demonstrations are captured through UMI-style wrist-view observations and deployment-compatible action interfaces.</p>
+            </div>
+            <div class="protocol-step">
+              <span>02</span>
+              <h3>Scene Reset</h3>
+              <p>Initial states and task variants are specified so repeated physical trials remain comparable and auditable.</p>
+            </div>
+            <div class="protocol-step">
+              <span>03</span>
+              <h3>Policy Execution</h3>
+              <p>Policies are evaluated through a consistent runner that records observations, actions, episode metadata, and outcomes.</p>
+            </div>
+            <div class="protocol-step">
+              <span>04</span>
+              <h3>Task-Factor Analysis</h3>
+              <p>Results are interpreted through seen and unseen factors such as object variation, layout change, contact stability, and long-horizon progress.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="results">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="eyebrow">Results</p>
+            <h2>From aggregate scores to diagnostic task factors</h2>
+            <p>UMI-Bench reports success, partial progress, subgoal completion, and factor-level changes so that policy failures can be analyzed rather than only ranked.</p>
+          </div>
+          <div class="result-grid">
+            <figure class="result-figure">
+              <img src="assets/images/taskwise-radar.jpg" alt="Taskwise progress radar chart">
+              <figcaption>Task-wise progress profile.</figcaption>
+            </figure>
+            <figure class="result-figure">
+              <img src="assets/images/generalization.jpg" alt="Generalization drop chart">
+              <figcaption>Seen-to-unseen generalization behavior.</figcaption>
+            </figure>
+            <figure class="result-figure wide">
+              <img src="assets/images/task-distribution.jpg" alt="Task variant distribution across scenes">
+              <figcaption>Task variants and scene coverage.</figcaption>
+            </figure>
+            <figure class="result-figure wide">
+              <img src="assets/images/folding-heatmap.jpg" alt="Deformable folding rollout heatmap">
+              <figcaption>Bimanual deformable folding rollout diagnosis.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section gallery-band" id="gallery">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="eyebrow">Rollout Gallery</p>
+            <h2>Real robot evidence should be visible</h2>
+            <p>The first release uses image previews from collected rollouts. Short web-optimized videos can be added here once the final public hosting target is selected.</p>
+          </div>
+          <div class="gallery-grid">
+            <figure>
+              <img src="assets/images/robot-bg.jpg" alt="Third-person robot rollout scene">
+              <figcaption>Third-person evaluation view.</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/images/hardware.jpg" alt="UMI-Bench real-world hardware setup">
+              <figcaption>Real-world UMI-style setup.</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/images/single-task-2.jpg" alt="Single-arm task preview">
+              <figcaption>Single-arm manipulation.</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/images/dual-task-6.jpg" alt="Bimanual deformable task preview">
+              <figcaption>Bimanual deformable manipulation.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section access-band" id="access">
+        <div class="section-inner access-layout">
+          <div>
+            <p class="eyebrow">Release</p>
+            <h2>Paper, code, dataset, and benchmark assets</h2>
+            <p>Public links can be filled in as the release becomes available. The page is already structured for GitHub Pages and can be extended with a leaderboard or submission instructions.</p>
+          </div>
+          <div class="link-panel" aria-label="Release links">
+            <a href="assets/paper/umi-bench-paper.pdf">Paper PDF</a>
+            <a href="#" aria-disabled="true">arXiv Coming Soon</a>
+            <a href="#" aria-disabled="true">Code Coming Soon</a>
+            <a href="#" aria-disabled="true">Dataset Coming Soon</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="citation">
+        <div class="section-inner">
+          <div class="section-heading compact">
+            <p class="eyebrow">BibTeX</p>
+            <h2>Citation</h2>
+          </div>
+          <pre class="bibtex"><code>@article{jin2026umibench,
+  title   = {UMI-Bench 1.0: An Open and Reproducible Real-World Benchmark for Tabletop Robotic Manipulation with UMI Data},
+  author  = {Jin, Shi and Wang, Yuntian and Duan, Yuhui and Wu, Di and Dong, Gaoqi and Liu, Xiaohang and Li, Xiaotong and Jia, Hongfei and Zhang, Zehao and Wang, Tianyu and Jia, Zhongjie and Yao, Yuanqi and Bai, Chenjia and Zhaxizhuoma and Liu, Siao and Cao, Nieqing and Wang, Jin and Yu, Chao and Ding, Yan},
+  journal = {CoRL},
+  year    = {2026}
+}</code></pre>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>UMI-Bench 1.0</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
