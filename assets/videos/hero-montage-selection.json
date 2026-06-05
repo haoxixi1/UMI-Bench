@@ -1,0 +1,1021 @@
+{
+  "input_dir": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks",
+  "output": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench_website/assets/videos/hero-montage.mp4",
+  "seed": 20260604,
+  "cols": 12,
+  "rows": 6,
+  "tile_size": 180,
+  "fps": 15,
+  "clip_seconds": 10,
+  "fade_seconds": 0.65,
+  "selected": [
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/单臂盖印章_3/video.mp4",
+      "task": "单臂盖印章_3",
+      "kind": "single_view",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K050Ac_LUMOSSZ/right_hand.mp4",
+      "task": "20260513K050Ac_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511O053Ad_LUMOSSZ/right_hand.mp4",
+      "task": "20260511O053Ad_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/单臂垃圾袋_绿色/video.mp4",
+      "task": "单臂垃圾袋_绿色",
+      "kind": "single_view",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511O053Ac_LUMOSSZ/right_hand.mp4",
+      "task": "20260511O053Ac_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K051Aa_LUMOSSZ/left_hand.mp4",
+      "task": "20260513K051Aa_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260514H051Ca_LUMOSSZ/right_hand.mp4",
+      "task": "20260514H051Ca_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/单臂垃圾袋_白色/video.mp4",
+      "task": "单臂垃圾袋_白色",
+      "kind": "single_view",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/单臂垃圾袋_紫色/video.mp4",
+      "task": "单臂垃圾袋_紫色",
+      "kind": "single_view",
+      "start": 20.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260518O051Ba_LUMOSSZ/right_hand.mp4",
+      "task": "20260518O051Ba_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260518O051Ba_LUMOSSZ/left_hand.mp4",
+      "task": "20260518O051Ba_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K050Ad_LUMOSSZ/left_hand.mp4",
+      "task": "20260513K050Ad_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/单臂遥控器_2/video.mp4",
+      "task": "单臂遥控器_2",
+      "kind": "single_view",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511K051Ac_LUMOSSZ/left_hand.mp4",
+      "task": "20260511K051Ac_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511O053Ad_LUMOSSZ/left_hand.mp4",
+      "task": "20260511O053Ad_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K051Ac_LUMOSSZ/right_hand.mp4",
+      "task": "20260513K051Ac_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/单臂叠篮子_红/video.mp4",
+      "task": "单臂叠篮子_红",
+      "kind": "single_view",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/单臂叠篮子_橙/video.mp4",
+      "task": "单臂叠篮子_橙",
+      "kind": "single_view",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260518O051Da_LUMOSSZ/left_hand.mp4",
+      "task": "20260518O051Da_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K051Ac_LUMOSSZ/left_hand.mp4",
+      "task": "20260513K051Ac_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 50.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511K051Ad_LUMOSSZ/left_hand.mp4",
+      "task": "20260511K051Ad_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 20.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/单臂盖印章_2/video.mp4",
+      "task": "单臂盖印章_2",
+      "kind": "single_view",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511O053Ad_LUMOSSZ/right_hand.mp4",
+      "task": "20260511O053Ad_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 20.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/单臂盖印章_1/video.mp4",
+      "task": "单臂盖印章_1",
+      "kind": "single_view",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K051Aa_LUMOSSZ/right_hand.mp4",
+      "task": "20260513K051Aa_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 30.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K051Ac_LUMOSSZ/left_hand.mp4",
+      "task": "20260513K051Ac_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/单臂遥控器_3/video.mp4",
+      "task": "单臂遥控器_3",
+      "kind": "single_view",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511O053Ad_LUMOSSZ/right_hand.mp4",
+      "task": "20260511O053Ad_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K050Ab_LUMOSSZ/right_hand.mp4",
+      "task": "20260513K050Ab_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K050Ac_LUMOSSZ/left_hand.mp4",
+      "task": "20260513K050Ac_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K050Aa_LUMOSSZ/right_hand.mp4",
+      "task": "20260513K050Aa_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511K051Ad_LUMOSSZ/right_hand.mp4",
+      "task": "20260511K051Ad_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/单臂垃圾袋_绿色/video.mp4",
+      "task": "单臂垃圾袋_绿色",
+      "kind": "single_view",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511K051Ab_LUMOSSZ/left_hand.mp4",
+      "task": "20260511K051Ab_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260518O051Ca_LUMOSSZ/right_hand.mp4",
+      "task": "20260518O051Ca_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/转盘_1/left_hand.mp4",
+      "task": "转盘_1",
+      "kind": "left_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260518O051Da_LUMOSSZ/right_hand.mp4",
+      "task": "20260518O051Da_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511O053Aa_LUMOSSZ/right_hand.mp4",
+      "task": "20260511O053Aa_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K050Ac_LUMOSSZ/left_hand.mp4",
+      "task": "20260513K050Ac_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K050Ad_LUMOSSZ/left_hand.mp4",
+      "task": "20260513K050Ad_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K050Aa_LUMOSSZ/right_hand.mp4",
+      "task": "20260513K050Aa_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260514H051Ca_LUMOSSZ/left_hand.mp4",
+      "task": "20260514H051Ca_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/单臂垃圾袋_紫色/video.mp4",
+      "task": "单臂垃圾袋_紫色",
+      "kind": "single_view",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511O053Ab_LUMOSSZ/right_hand.mp4",
+      "task": "20260511O053Ab_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260514H051Aa_LUMOSSZ/right_hand.mp4",
+      "task": "20260514H051Aa_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260518O051Ca_LUMOSSZ/left_hand.mp4",
+      "task": "20260518O051Ca_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260514H051Aa_LUMOSSZ/left_hand.mp4",
+      "task": "20260514H051Aa_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/单臂垃圾袋_蓝色/video.mp4",
+      "task": "单臂垃圾袋_蓝色",
+      "kind": "single_view",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511K051Ab_LUMOSSZ/left_hand.mp4",
+      "task": "20260511K051Ab_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260514H051Ba_LUMOSSZ/right_hand.mp4",
+      "task": "20260514H051Ba_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511O053Aa_LUMOSSZ/right_hand.mp4",
+      "task": "20260511O053Aa_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260518O051Da_LUMOSSZ/right_hand.mp4",
+      "task": "20260518O051Da_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511K051Ad_LUMOSSZ/left_hand.mp4",
+      "task": "20260511K051Ad_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260514H051Ba_LUMOSSZ/right_hand.mp4",
+      "task": "20260514H051Ba_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 20.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K051Ac_LUMOSSZ/right_hand.mp4",
+      "task": "20260513K051Ac_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 30.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511K051Ab_LUMOSSZ/right_hand.mp4",
+      "task": "20260511K051Ab_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511K051Ad_LUMOSSZ/left_hand.mp4",
+      "task": "20260511K051Ad_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K050Ab_LUMOSSZ/left_hand.mp4",
+      "task": "20260513K050Ab_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511K051Ac_LUMOSSZ/right_hand.mp4",
+      "task": "20260511K051Ac_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260514H051Aa_LUMOSSZ/left_hand.mp4",
+      "task": "20260514H051Aa_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K050Aa_LUMOSSZ/left_hand.mp4",
+      "task": "20260513K050Aa_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/转盘_1/right_hand.mp4",
+      "task": "转盘_1",
+      "kind": "right_hand",
+      "start": 20.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K051Aa_LUMOSSZ/right_hand.mp4",
+      "task": "20260513K051Aa_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 40.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511K051Ad_LUMOSSZ/right_hand.mp4",
+      "task": "20260511K051Ad_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 20.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511O053Ac_LUMOSSZ/left_hand.mp4",
+      "task": "20260511O053Ac_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K051Ad_LUMOSSZ/left_hand.mp4",
+      "task": "20260513K051Ad_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 30.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260518O051Ba_LUMOSSZ/left_hand.mp4",
+      "task": "20260518O051Ba_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/倒豆子_1/left_hand.mp4",
+      "task": "倒豆子_1",
+      "kind": "left_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/转盘_1/right_hand.mp4",
+      "task": "转盘_1",
+      "kind": "right_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/单臂垃圾袋_紫色/video.mp4",
+      "task": "单臂垃圾袋_紫色",
+      "kind": "single_view",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K051Ac_LUMOSSZ/right_hand.mp4",
+      "task": "20260513K051Ac_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 40.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K050Ad_LUMOSSZ/right_hand.mp4",
+      "task": "20260513K050Ad_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260514H051Aa_LUMOSSZ/right_hand.mp4",
+      "task": "20260514H051Aa_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 20.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K051Ad_LUMOSSZ/right_hand.mp4",
+      "task": "20260513K051Ad_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 30.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/单臂遥控器_1/video.mp4",
+      "task": "单臂遥控器_1",
+      "kind": "single_view",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511O053Ab_LUMOSSZ/left_hand.mp4",
+      "task": "20260511O053Ab_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511O053Aa_LUMOSSZ/left_hand.mp4",
+      "task": "20260511O053Aa_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/单臂遥控器_1/video.mp4",
+      "task": "单臂遥控器_1",
+      "kind": "single_view",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/单臂叠篮子_红/video.mp4",
+      "task": "单臂叠篮子_红",
+      "kind": "single_view",
+      "start": 20.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511O053Aa_LUMOSSZ/left_hand.mp4",
+      "task": "20260511O053Aa_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/单臂垃圾袋_蓝色/video.mp4",
+      "task": "单臂垃圾袋_蓝色",
+      "kind": "single_view",
+      "start": 20.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/单臂遥控器_2/video.mp4",
+      "task": "单臂遥控器_2",
+      "kind": "single_view",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/单臂遥控器_3/video.mp4",
+      "task": "单臂遥控器_3",
+      "kind": "single_view",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260514H051Ba_LUMOSSZ/left_hand.mp4",
+      "task": "20260514H051Ba_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260514H051Aa_LUMOSSZ/right_hand.mp4",
+      "task": "20260514H051Aa_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/单臂遥控器_4/video.mp4",
+      "task": "单臂遥控器_4",
+      "kind": "single_view",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511K051Ad_LUMOSSZ/right_hand.mp4",
+      "task": "20260511K051Ad_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K051Ad_LUMOSSZ/left_hand.mp4",
+      "task": "20260513K051Ad_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 50.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511K051Ab_LUMOSSZ/right_hand.mp4",
+      "task": "20260511K051Ab_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 20.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260514H051Ca_LUMOSSZ/left_hand.mp4",
+      "task": "20260514H051Ca_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 20.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K050Ab_LUMOSSZ/left_hand.mp4",
+      "task": "20260513K050Ab_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/单臂垃圾袋_绿色/video.mp4",
+      "task": "单臂垃圾袋_绿色",
+      "kind": "single_view",
+      "start": 20.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260518O051Ca_LUMOSSZ/left_hand.mp4",
+      "task": "20260518O051Ca_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K051Ad_LUMOSSZ/left_hand.mp4",
+      "task": "20260513K051Ad_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511K051Ac_LUMOSSZ/left_hand.mp4",
+      "task": "20260511K051Ac_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/倒豆子_1/right_hand.mp4",
+      "task": "倒豆子_1",
+      "kind": "right_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511K051Ac_LUMOSSZ/right_hand.mp4",
+      "task": "20260511K051Ac_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 20.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K050Ac_LUMOSSZ/right_hand.mp4",
+      "task": "20260513K050Ac_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511K051Ab_LUMOSSZ/right_hand.mp4",
+      "task": "20260511K051Ab_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260518H051Aa_LUMOSSZ/left_hand.mp4",
+      "task": "20260518H051Aa_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260514H051Ca_LUMOSSZ/right_hand.mp4",
+      "task": "20260514H051Ca_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 20.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K050Ad_LUMOSSZ/right_hand.mp4",
+      "task": "20260513K050Ad_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/单臂叠篮子_橙/video.mp4",
+      "task": "单臂叠篮子_橙",
+      "kind": "single_view",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511O053Ab_LUMOSSZ/right_hand.mp4",
+      "task": "20260511O053Ab_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 20.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511O053Ab_LUMOSSZ/left_hand.mp4",
+      "task": "20260511O053Ab_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 20.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/单臂叠篮子_橙/video.mp4",
+      "task": "单臂叠篮子_橙",
+      "kind": "single_view",
+      "start": 20.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511K051Ac_LUMOSSZ/right_hand.mp4",
+      "task": "20260511K051Ac_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K051Ac_LUMOSSZ/left_hand.mp4",
+      "task": "20260513K051Ac_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 40.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/单臂遥控器_4/video.mp4",
+      "task": "单臂遥控器_4",
+      "kind": "single_view",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511K051Ab_LUMOSSZ/left_hand.mp4",
+      "task": "20260511K051Ab_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 20.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/倒豆子_1/right_hand.mp4",
+      "task": "倒豆子_1",
+      "kind": "right_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260518H051Aa_LUMOSSZ/left_hand.mp4",
+      "task": "20260518H051Aa_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K051Ad_LUMOSSZ/right_hand.mp4",
+      "task": "20260513K051Ad_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 50.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/倒豆子_1/left_hand.mp4",
+      "task": "倒豆子_1",
+      "kind": "left_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260518O051Da_LUMOSSZ/left_hand.mp4",
+      "task": "20260518O051Da_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K051Aa_LUMOSSZ/right_hand.mp4",
+      "task": "20260513K051Aa_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 20.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511O053Ad_LUMOSSZ/left_hand.mp4",
+      "task": "20260511O053Ad_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 20.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/单臂叠篮子_红/video.mp4",
+      "task": "单臂叠篮子_红",
+      "kind": "single_view",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511K051Ac_LUMOSSZ/left_hand.mp4",
+      "task": "20260511K051Ac_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 20.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511O053Aa_LUMOSSZ/right_hand.mp4",
+      "task": "20260511O053Aa_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 20.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/转盘_1/right_hand.mp4",
+      "task": "转盘_1",
+      "kind": "right_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K051Aa_LUMOSSZ/left_hand.mp4",
+      "task": "20260513K051Aa_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 50.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K051Ad_LUMOSSZ/left_hand.mp4",
+      "task": "20260513K051Ad_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 40.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260518H051Aa_LUMOSSZ/right_hand.mp4",
+      "task": "20260518H051Aa_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511O053Ac_LUMOSSZ/left_hand.mp4",
+      "task": "20260511O053Ac_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 20.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511O053Ac_LUMOSSZ/left_hand.mp4",
+      "task": "20260511O053Ac_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260518O051Ca_LUMOSSZ/right_hand.mp4",
+      "task": "20260518O051Ca_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/转盘_1/left_hand.mp4",
+      "task": "转盘_1",
+      "kind": "left_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260518O051Ba_LUMOSSZ/right_hand.mp4",
+      "task": "20260518O051Ba_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511O053Ab_LUMOSSZ/left_hand.mp4",
+      "task": "20260511O053Ab_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260514H051Aa_LUMOSSZ/left_hand.mp4",
+      "task": "20260514H051Aa_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 20.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260511O053Ac_LUMOSSZ/right_hand.mp4",
+      "task": "20260511O053Ac_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/单臂盖印章_4/video.mp4",
+      "task": "单臂盖印章_4",
+      "kind": "single_view",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/单臂垃圾袋_蓝色/video.mp4",
+      "task": "单臂垃圾袋_蓝色",
+      "kind": "single_view",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K050Aa_LUMOSSZ/left_hand.mp4",
+      "task": "20260513K050Aa_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/单臂垃圾袋_白色/video.mp4",
+      "task": "单臂垃圾袋_白色",
+      "kind": "single_view",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/单臂垃圾袋_白色/video.mp4",
+      "task": "单臂垃圾袋_白色",
+      "kind": "single_view",
+      "start": 20.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/转盘_1/left_hand.mp4",
+      "task": "转盘_1",
+      "kind": "left_hand",
+      "start": 20.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260514H051Ba_LUMOSSZ/left_hand.mp4",
+      "task": "20260514H051Ba_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260518H051Aa_LUMOSSZ/right_hand.mp4",
+      "task": "20260518H051Aa_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260514H051Ca_LUMOSSZ/right_hand.mp4",
+      "task": "20260514H051Ca_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 0.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K051Aa_LUMOSSZ/left_hand.mp4",
+      "task": "20260513K051Aa_LUMOSSZ",
+      "kind": "left_hand",
+      "start": 30.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260514H051Ba_LUMOSSZ/right_hand.mp4",
+      "task": "20260514H051Ba_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 10.0,
+      "duration": 10
+    },
+    {
+      "source": "/Users/yuntian.wang/Desktop/workspace/latex/UMI_Bench/random1_many_tasks_folder_20260603_033850/tasks/20260513K050Ab_LUMOSSZ/right_hand.mp4",
+      "task": "20260513K050Ab_LUMOSSZ",
+      "kind": "right_hand",
+      "start": 10.0,
+      "duration": 10
+    }
+  ]
+}

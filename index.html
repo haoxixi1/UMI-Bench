@@ -12,220 +12,288 @@
       <nav class="nav">
         <a class="brand" href="#top" aria-label="UMI-Bench home">UMI-Bench</a>
         <div class="nav-links" aria-label="Section navigation">
-          <a href="#overview">Overview</a>
-          <a href="#tasks">Tasks</a>
-          <a href="#protocol">Protocol</a>
-          <a href="#results">Results</a>
-          <a href="#gallery">Gallery</a>
+          <a href="#paper">Paper</a>
+          <a href="#abstract">Abstract</a>
+          <a href="#pipeline">Pipeline</a>
+          <a href="#gallery">Rollouts</a>
           <a href="#citation">BibTeX</a>
         </div>
       </nav>
     </header>
 
     <main>
-      <section class="hero">
-        <picture>
-          <img class="hero-image" src="assets/images/hero.jpg" alt="UMI-Bench robot manipulation setup and task examples">
-        </picture>
+      <section class="hero" aria-label="UMI-Bench hero">
+        <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="assets/images/hero.jpg" aria-label="UMI-Bench data and rollout montage">
+          <source src="assets/videos/hero-montage.mp4" type="video/mp4">
+        </video>
         <div class="hero-shade"></div>
         <div class="hero-content">
           <h1>UMI-Bench 1.0</h1>
           <p class="hero-subtitle">An open and reproducible real-world benchmark for tabletop robotic manipulation with UMI data.</p>
-          <p class="hero-copy">UMI-Bench aligns data collection, scene reset, policy execution, result logging, and task-factor analysis within one auditable real-robot evaluation protocol.</p>
-          <div class="hero-actions">
-            <a class="button primary" href="assets/paper/umi-bench-paper.pdf">Paper</a>
-            <a class="button" href="#gallery">Rollouts</a>
-            <a class="button ghost" href="#citation">Cite</a>
+          <div class="hero-actions" aria-label="Project links">
+            <a class="hero-button primary" href="assets/paper/umi-bench-paper.pdf">Paper</a>
+            <a class="hero-button" href="#release">Code</a>
+            <a class="hero-button" href="#release">Dataset</a>
+            <a class="hero-button" href="#release">Models</a>
           </div>
-        </div>
-        <div class="hero-stats" aria-label="Benchmark summary">
-          <span><strong>10</strong> real-world tasks</span>
-          <span><strong>4</strong> single-arm tasks</span>
-          <span><strong>6</strong> bimanual tasks</span>
-          <span><strong>UMI</strong> data-to-deployment</span>
+          <div class="partner-logos" aria-label="Project institutions">
+            <div class="partner-card">
+              <img class="partner-logo suda-logo" src="assets/images/suda-future-logo.png" alt="Soochow University School of Future Science and Engineering">
+            </div>
+            <div class="partner-card">
+              <img class="partner-logo lumos-logo" src="assets/images/lumos-logo.png" alt="Lumos Robotics">
+            </div>
+          </div>
         </div>
       </section>
 
-      <section class="section intro-band" id="overview">
-        <div class="section-inner two-column">
-          <div>
-            <p class="eyebrow">Overview</p>
-            <h2>A benchmark for the full UMI evaluation loop</h2>
-            <p>Real-robot evaluation is essential for understanding whether learned manipulation policies operate reliably outside curated demonstrations. UMI-Bench focuses on the UMI-style setting, where wrist-view observation, action representation, data collection, and physical deployment are tightly coupled.</p>
-            <p>The benchmark specifies how demonstrations are collected, how scenes are reset, how policies are executed, how episodes are logged, and how task-level factors are analyzed under seen and unseen conditions.</p>
+      <section class="section paper-section" id="paper">
+        <div class="section-inner narrow">
+          <h2 class="paper-title">UMI-Bench 1.0: An Open and Reproducible Real-World Benchmark for Tabletop Robotic Manipulation with UMI Data</h2>
+          <p class="authors">
+            Shi Jin<sup>1,2†</sup>, Yuntian Wang<sup>1,2†</sup>, Yuhui Duan<sup>1,2†</sup>, Di Wu<sup>1,2†</sup>,
+            Gaoqi Dong<sup>2†</sup>, Xiaohang Liu<sup>2§</sup>, Xiaotong Li<sup>2§</sup>, Hongfei Jia<sup>2§</sup>, Zehao Zhang<sup>2§</sup>,
+            Tianyu Wang<sup>3</sup>, Zhongjie Jia<sup>4</sup>, Yuanqi Yao<sup>7</sup>, Chenjia Bai<sup>5</sup>, Zhaxizhuoma<sup>4,6,2‡</sup>,
+            Siao Liu<sup>1‡</sup>, Nieqing Cao<sup>8</sup>, Jin Wang<sup>1</sup>, Chao Yu<sup>2</sup>, Yan Ding<sup>2,3,8</sup>
+          </p>
+          <p class="institutions">
+            <sup>1</sup>Soochow University &nbsp;·&nbsp;
+            <sup>2</sup>Lumos Robotics &nbsp;·&nbsp;
+            <sup>3</sup>Fudan University &nbsp;·&nbsp;
+            <sup>4</sup>Shanghai Jiao Tong University<br>
+            <sup>5</sup>Shanghai TeleAI &nbsp;·&nbsp;
+            <sup>6</sup>Shanghai AI Laboratory &nbsp;·&nbsp;
+            <sup>7</sup>INSAIT &nbsp;·&nbsp;
+            <sup>8</sup>Xi'an Jiaotong-Liverpool University
+          </p>
+          <p class="author-notes"><sup>†</sup> Equal contribution &nbsp;·&nbsp; <sup>§</sup> Equal contribution &nbsp;·&nbsp; <sup>‡</sup> Corresponding authors</p>
+        </div>
+      </section>
+
+      <section class="section abstract-section" id="abstract">
+        <div class="section-inner text-block">
+          <h2>Abstract</h2>
+          <p>Real-robot evaluation is essential for understanding whether learned manipulation policies can operate reliably outside curated demonstrations. This need is particularly pressing for Universal Manipulation Interface (UMI)-style policies, whose performance depends on the coupling between wrist-view observations, action representation, data collection, and physical deployment.</p>
+          <p>Existing real-world benchmarks have made important progress, but they are not designed around this UMI data-to-deployment setting. We present UMI-Bench 1.0, a local-first real-robot benchmark for standardized evaluation of UMI-style manipulation policies. To the best of our knowledge, this is the first benchmark dedicated to real-world evaluation of UMI-based manipulation models.</p>
+          <p>UMI-Bench aligns data collection, scene reset, policy execution, result logging, and task-factor analysis within a unified protocol. By making the full evaluation process reproducible and auditable, UMI-Bench provides a practical testbed for measuring how UMI-trained policies generalize to real physical manipulation.</p>
+        </div>
+        <figure class="paper-figure overview-figure">
+          <img src="assets/images/overview-figure.jpg" alt="UMI-Bench overview showing data collection, data samples, and real-world evaluation workstations" loading="lazy" decoding="async">
+        </figure>
+      </section>
+
+      <section class="section pipeline-section" id="pipeline">
+        <div class="section-inner">
+          <div class="section-heading center">
+            <h2>Data-to-evaluation Pipeline</h2>
+            <p>UMI-Bench connects demonstration capture, UMI data samples, task setup, real-world evaluation workstations, and rollout logging into one reproducible benchmark workflow.</p>
           </div>
-          <figure class="media-frame">
-            <img src="assets/images/overview.jpg" alt="UMI-Bench system overview">
-            <figcaption>Standardized data collection and real-world evaluation are treated as one benchmark specification.</figcaption>
+          <figure class="paper-figure pipeline-figure">
+            <img src="assets/images/main-figure.jpg" alt="UMI-Bench main figure summarizing standardized data collection, task suite, training repository, baselines, and grid-based real-world evaluation" loading="lazy" decoding="async">
           </figure>
         </div>
       </section>
 
-      <section class="section" id="tasks">
+      <section class="section gallery-section" id="gallery">
         <div class="section-inner">
-          <div class="section-heading">
-            <p class="eyebrow">Task Suite</p>
-            <h2>Single-arm and bimanual tabletop manipulation</h2>
-            <p>UMI-Bench 1.0 covers four single-arm tasks and six bimanual tasks, spanning placement precision, spatial reasoning, contact-rich interaction, dynamic scenes, sorting, long-horizon execution, and deformable manipulation.</p>
+          <div class="section-heading center">
+            <h2>Seen and unseen rollouts</h2>
+            <p>Each task is shown with one representative seen-condition rollout and one unseen-condition rollout. All clips are web-optimized, muted, and shown at 2x playback.</p>
           </div>
-
-          <div class="task-controls" aria-label="Task filters">
-            <button class="filter-button active" type="button" data-filter="all">All</button>
-            <button class="filter-button" type="button" data-filter="single">Single-arm</button>
-            <button class="filter-button" type="button" data-filter="dual">Bimanual</button>
-          </div>
-
-          <div class="task-grid">
-            <article class="task-card" data-kind="single">
-              <img src="assets/images/single-task-1.jpg" alt="Single-arm UMI-Bench task 1">
-              <div><span>Single-arm</span><h3>Tabletop Placement</h3></div>
+          <div class="rollout-grid">
+            <article class="rollout-card single-arm">
+              <div class="rollout-title"><span>Task 01</span><h3>Stack Baskets</h3></div>
+              <div class="video-pair">
+                <figure class="video-frame">
+                  <video controls playsinline preload="none" poster="assets/images/rollout-task-01-seen.jpg">
+                    <source src="assets/videos/rollouts/task-01-seen.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>Seen condition, 2x playback</figcaption>
+                </figure>
+                <figure class="video-frame">
+                  <video controls playsinline preload="none" poster="assets/images/rollout-task-01-unseen.jpg">
+                    <source src="assets/videos/rollouts/task-01-unseen.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>Unseen condition, 2x playback</figcaption>
+                </figure>
+              </div>
             </article>
-            <article class="task-card" data-kind="single">
-              <img src="assets/images/single-task-2.jpg" alt="Single-arm UMI-Bench task 2">
-              <div><span>Single-arm</span><h3>Bag Handling</h3></div>
+            <article class="rollout-card single-arm">
+              <div class="rollout-title"><span>Task 02</span><h3>Trash Bag</h3></div>
+              <div class="video-pair">
+                <figure class="video-frame">
+                  <video controls playsinline preload="none" poster="assets/images/rollout-task-02-seen.jpg">
+                    <source src="assets/videos/rollouts/task-02-seen.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>Seen condition, 2x playback</figcaption>
+                </figure>
+                <figure class="video-frame">
+                  <video controls playsinline preload="none" poster="assets/images/rollout-task-02-unseen.jpg">
+                    <source src="assets/videos/rollouts/task-02-unseen.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>Unseen condition, 2x playback</figcaption>
+                </figure>
+              </div>
             </article>
-            <article class="task-card" data-kind="single">
-              <img src="assets/images/single-task-3.jpg" alt="Single-arm UMI-Bench task 3">
-              <div><span>Single-arm</span><h3>Object Transfer</h3></div>
+            <article class="rollout-card single-arm">
+              <div class="rollout-title"><span>Task 03</span><h3>Stamp Ink</h3></div>
+              <div class="video-pair">
+                <figure class="video-frame">
+                  <video controls playsinline preload="none" poster="assets/images/rollout-task-03-seen.jpg">
+                    <source src="assets/videos/rollouts/task-03-seen.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>Seen condition, 2x playback</figcaption>
+                </figure>
+                <figure class="video-frame">
+                  <video controls playsinline preload="none" poster="assets/images/rollout-task-03-unseen.jpg">
+                    <source src="assets/videos/rollouts/task-03-unseen.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>Unseen condition, 2x playback</figcaption>
+                </figure>
+              </div>
             </article>
-            <article class="task-card" data-kind="single">
-              <img src="assets/images/single-task-4.jpg" alt="Single-arm UMI-Bench task 4">
-              <div><span>Single-arm</span><h3>Remote Placement</h3></div>
+            <article class="rollout-card single-arm">
+              <div class="rollout-title"><span>Task 04</span><h3>Remote Storage</h3></div>
+              <div class="video-pair">
+                <figure class="video-frame">
+                  <video controls playsinline preload="none" poster="assets/images/rollout-task-04-seen.jpg">
+                    <source src="assets/videos/rollouts/task-04-seen.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>Seen condition, 2x playback</figcaption>
+                </figure>
+                <figure class="video-frame">
+                  <video controls playsinline preload="none" poster="assets/images/rollout-task-04-unseen.jpg">
+                    <source src="assets/videos/rollouts/task-04-unseen.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>Unseen condition, 2x playback</figcaption>
+                </figure>
+              </div>
             </article>
-            <article class="task-card" data-kind="dual">
-              <img src="assets/images/dual-task-1.jpg" alt="Bimanual UMI-Bench task 1">
-              <div><span>Bimanual</span><h3>Coordinated Pick</h3></div>
+            <article class="rollout-card bimanual">
+              <div class="rollout-title"><span>Task 05</span><h3>Pour Beans</h3></div>
+              <div class="video-pair">
+                <figure class="video-frame">
+                  <video controls playsinline preload="none" poster="assets/images/rollout-task-05-seen.jpg">
+                    <source src="assets/videos/rollouts/task-05-seen.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>Seen condition, 2x playback</figcaption>
+                </figure>
+                <figure class="video-frame">
+                  <video controls playsinline preload="none" poster="assets/images/rollout-task-05-unseen.jpg">
+                    <source src="assets/videos/rollouts/task-05-unseen.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>Unseen condition, 2x playback</figcaption>
+                </figure>
+              </div>
             </article>
-            <article class="task-card" data-kind="dual">
-              <img src="assets/images/dual-task-2.jpg" alt="Bimanual UMI-Bench task 2">
-              <div><span>Bimanual</span><h3>Material Pouring</h3></div>
+            <article class="rollout-card bimanual">
+              <div class="rollout-title"><span>Task 06</span><h3>Pack &amp; Carry</h3></div>
+              <div class="video-pair">
+                <figure class="video-frame">
+                  <video controls playsinline preload="none" poster="assets/images/rollout-task-06-seen.jpg">
+                    <source src="assets/videos/rollouts/task-06-seen.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>Seen condition, 2x playback</figcaption>
+                </figure>
+                <figure class="video-frame">
+                  <video controls playsinline preload="none" poster="assets/images/rollout-task-06-unseen.jpg">
+                    <source src="assets/videos/rollouts/task-06-unseen.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>Unseen condition, 2x playback</figcaption>
+                </figure>
+              </div>
             </article>
-            <article class="task-card" data-kind="dual">
-              <img src="assets/images/dual-task-3.jpg" alt="Bimanual UMI-Bench task 3">
-              <div><span>Bimanual</span><h3>Rotational Control</h3></div>
+            <article class="rollout-card bimanual">
+              <div class="rollout-title"><span>Task 07</span><h3>Turntable Pick</h3></div>
+              <div class="video-pair">
+                <figure class="video-frame">
+                  <video controls playsinline preload="none" poster="assets/images/rollout-task-07-seen.jpg">
+                    <source src="assets/videos/rollouts/task-07-seen.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>Seen condition, 2x playback</figcaption>
+                </figure>
+                <figure class="video-frame">
+                  <video controls playsinline preload="none" poster="assets/images/rollout-task-07-unseen.jpg">
+                    <source src="assets/videos/rollouts/task-07-unseen.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>Unseen condition, 2x playback</figcaption>
+                </figure>
+              </div>
             </article>
-            <article class="task-card" data-kind="dual">
-              <img src="assets/images/dual-task-4.jpg" alt="Bimanual UMI-Bench task 4">
-              <div><span>Bimanual</span><h3>Category Sorting</h3></div>
+            <article class="rollout-card bimanual">
+              <div class="rollout-title"><span>Task 08</span><h3>Mahjong Sort</h3></div>
+              <div class="video-pair">
+                <figure class="video-frame">
+                  <video controls playsinline preload="none" poster="assets/images/rollout-task-08-seen.jpg">
+                    <source src="assets/videos/rollouts/task-08-seen.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>Seen condition, 2x playback</figcaption>
+                </figure>
+                <figure class="video-frame">
+                  <video controls playsinline preload="none" poster="assets/images/rollout-task-08-unseen.jpg">
+                    <source src="assets/videos/rollouts/task-08-unseen.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>Unseen condition, 2x playback</figcaption>
+                </figure>
+              </div>
             </article>
-            <article class="task-card" data-kind="dual">
-              <img src="assets/images/dual-task-5.jpg" alt="Bimanual UMI-Bench task 5">
-              <div><span>Bimanual</span><h3>Packing and Transport</h3></div>
+            <article class="rollout-card bimanual">
+              <div class="rollout-title"><span>Task 09</span><h3>Kitchen Rearrange</h3></div>
+              <div class="video-pair">
+                <figure class="video-frame">
+                  <video controls playsinline preload="none" poster="assets/images/rollout-task-09-seen.jpg">
+                    <source src="assets/videos/rollouts/task-09-seen.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>Seen condition, 2x playback</figcaption>
+                </figure>
+                <figure class="video-frame">
+                  <video controls playsinline preload="none" poster="assets/images/rollout-task-09-unseen.jpg">
+                    <source src="assets/videos/rollouts/task-09-unseen.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>Unseen condition, 2x playback</figcaption>
+                </figure>
+              </div>
             </article>
-            <article class="task-card" data-kind="dual">
-              <img src="assets/images/dual-task-6.jpg" alt="Bimanual UMI-Bench task 6">
-              <div><span>Bimanual</span><h3>Deformable Folding</h3></div>
+            <article class="rollout-card bimanual">
+              <div class="rollout-title"><span>Task 10</span><h3>Pants Folding</h3></div>
+              <div class="video-pair">
+                <figure class="video-frame">
+                  <video controls playsinline preload="none" poster="assets/images/rollout-task-10-seen.jpg">
+                    <source src="assets/videos/rollouts/task-10-seen.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>Seen condition, 2x playback</figcaption>
+                </figure>
+                <figure class="video-frame">
+                  <video controls playsinline preload="none" poster="assets/images/rollout-task-10-unseen.jpg">
+                    <source src="assets/videos/rollouts/task-10-unseen.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>Unseen condition, 2x playback</figcaption>
+                </figure>
+              </div>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="section protocol-band" id="protocol">
-        <div class="section-inner">
-          <div class="section-heading compact">
-            <p class="eyebrow">Benchmark Protocol</p>
-            <h2>Reproducible evaluation, not isolated demos</h2>
-          </div>
-          <div class="protocol-grid">
-            <div class="protocol-step">
-              <span>01</span>
-              <h3>Data Collection</h3>
-              <p>Demonstrations are captured through UMI-style wrist-view observations and deployment-compatible action interfaces.</p>
-            </div>
-            <div class="protocol-step">
-              <span>02</span>
-              <h3>Scene Reset</h3>
-              <p>Initial states and task variants are specified so repeated physical trials remain comparable and auditable.</p>
-            </div>
-            <div class="protocol-step">
-              <span>03</span>
-              <h3>Policy Execution</h3>
-              <p>Policies are evaluated through a consistent runner that records observations, actions, episode metadata, and outcomes.</p>
-            </div>
-            <div class="protocol-step">
-              <span>04</span>
-              <h3>Task-Factor Analysis</h3>
-              <p>Results are interpreted through seen and unseen factors such as object variation, layout change, contact stability, and long-horizon progress.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="results">
-        <div class="section-inner">
-          <div class="section-heading">
-            <p class="eyebrow">Results</p>
-            <h2>From aggregate scores to diagnostic task factors</h2>
-            <p>UMI-Bench reports success, partial progress, subgoal completion, and factor-level changes so that policy failures can be analyzed rather than only ranked.</p>
-          </div>
-          <div class="result-grid">
-            <figure class="result-figure">
-              <img src="assets/images/taskwise-radar.jpg" alt="Taskwise progress radar chart">
-              <figcaption>Task-wise progress profile.</figcaption>
-            </figure>
-            <figure class="result-figure">
-              <img src="assets/images/generalization.jpg" alt="Generalization drop chart">
-              <figcaption>Seen-to-unseen generalization behavior.</figcaption>
-            </figure>
-            <figure class="result-figure wide">
-              <img src="assets/images/task-distribution.jpg" alt="Task variant distribution across scenes">
-              <figcaption>Task variants and scene coverage.</figcaption>
-            </figure>
-            <figure class="result-figure wide">
-              <img src="assets/images/folding-heatmap.jpg" alt="Deformable folding rollout heatmap">
-              <figcaption>Bimanual deformable folding rollout diagnosis.</figcaption>
-            </figure>
-          </div>
-        </div>
-      </section>
-
-      <section class="section gallery-band" id="gallery">
-        <div class="section-inner">
-          <div class="section-heading">
-            <p class="eyebrow">Rollout Gallery</p>
-            <h2>Real robot evidence should be visible</h2>
-            <p>The first release uses image previews from collected rollouts. Short web-optimized videos can be added here once the final public hosting target is selected.</p>
-          </div>
-          <div class="gallery-grid">
-            <figure>
-              <img src="assets/images/robot-bg.jpg" alt="Third-person robot rollout scene">
-              <figcaption>Third-person evaluation view.</figcaption>
-            </figure>
-            <figure>
-              <img src="assets/images/hardware.jpg" alt="UMI-Bench real-world hardware setup">
-              <figcaption>Real-world UMI-style setup.</figcaption>
-            </figure>
-            <figure>
-              <img src="assets/images/single-task-2.jpg" alt="Single-arm task preview">
-              <figcaption>Single-arm manipulation.</figcaption>
-            </figure>
-            <figure>
-              <img src="assets/images/dual-task-6.jpg" alt="Bimanual deformable task preview">
-              <figcaption>Bimanual deformable manipulation.</figcaption>
-            </figure>
-          </div>
-        </div>
-      </section>
-
-      <section class="section access-band" id="access">
-        <div class="section-inner access-layout">
+      <section class="section release-section" id="release">
+        <div class="section-inner release-layout">
           <div>
             <p class="eyebrow">Release</p>
-            <h2>Paper, code, dataset, and benchmark assets</h2>
+            <h2>Paper, code, dataset, and model assets</h2>
             <p>Public links can be filled in as the release becomes available. The page is already structured for GitHub Pages and can be extended with a leaderboard or submission instructions.</p>
           </div>
           <div class="link-panel" aria-label="Release links">
             <a href="assets/paper/umi-bench-paper.pdf">Paper PDF</a>
-            <a href="#" aria-disabled="true">arXiv Coming Soon</a>
             <a href="#" aria-disabled="true">Code Coming Soon</a>
             <a href="#" aria-disabled="true">Dataset Coming Soon</a>
+            <a href="#" aria-disabled="true">Models Coming Soon</a>
           </div>
         </div>
       </section>
 
-      <section class="section" id="citation">
+      <section class="section citation-section" id="citation">
         <div class="section-inner">
-          <div class="section-heading compact">
+          <div class="section-heading">
             <p class="eyebrow">BibTeX</p>
             <h2>Citation</h2>
           </div>
@@ -243,7 +311,5 @@
       <p>UMI-Bench 1.0</p>
       <a href="#top">Back to top</a>
     </footer>
-
-    <script src="script.js"></script>
   </body>
 </html>
