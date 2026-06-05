@@ -297,6 +297,30 @@ a {
   font-weight: 800;
 }
 
+.overview-video-section {
+  padding-top: 22px;
+  padding-bottom: 72px;
+  background: #fff;
+}
+
+.overview-video-frame {
+  width: min(980px, 100%);
+  margin: 0 auto;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #10131a;
+  box-shadow: var(--shadow);
+}
+
+.overview-video-frame video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #10131a;
+  object-fit: contain;
+}
+
 .abstract-section {
   background: linear-gradient(180deg, #fbfcff 0%, #ffffff 100%);
 }
