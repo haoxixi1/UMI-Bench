@@ -175,40 +175,28 @@ a {
 
 .partner-logos {
   display: grid;
-  grid-template-columns: repeat(2, minmax(260px, 1fr));
-  gap: 16px;
-  width: min(720px, 100%);
-  margin-top: 22px;
+  grid-template-columns: 1fr;
+  width: min(1180px, calc(100vw - 48px));
+  margin-top: 26px;
 }
 
 .partner-card {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 72px;
-  padding: 12px 18px;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.72);
-  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.18);
-  backdrop-filter: blur(18px);
+  min-height: 76px;
+  padding: 0;
 }
 
 .partner-logo {
   width: 100%;
   height: auto;
-  max-height: 58px;
   object-fit: contain;
 }
 
-.suda-logo {
-  max-height: 50px;
-}
-
-.lumos-logo {
-  width: min(100%, 390px);
-  max-width: 390px;
-  max-height: 72px;
+.combined-logo {
+  max-height: 92px;
+  filter: drop-shadow(0 12px 24px rgba(0, 0, 0, 0.32));
 }
 
 .section {
@@ -567,7 +555,6 @@ figcaption {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .partner-logos,
   .rollout-grid,
   .release-layout {
     grid-template-columns: 1fr;
@@ -606,16 +593,11 @@ figcaption {
   }
 
   .partner-card {
-    min-height: 64px;
-    padding: 10px 18px;
+    min-height: 44px;
   }
 
-  .suda-logo {
-    max-height: 42px;
-  }
-
-  .lumos-logo {
-    max-height: 52px;
+  .combined-logo {
+    max-height: 54px;
   }
 
   .section {
