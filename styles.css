@@ -185,7 +185,12 @@ a {
   align-items: center;
   justify-content: center;
   min-height: 76px;
-  padding: 0;
+  padding: 14px 28px;
+  border: 1px solid rgba(255, 255, 255, 0.74);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(18px);
 }
 
 .partner-logo {
@@ -594,6 +599,7 @@ figcaption {
 
   .partner-card {
     min-height: 44px;
+    padding: 10px 14px;
   }
 
   .combined-logo {
